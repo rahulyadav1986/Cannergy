@@ -1,0 +1,94 @@
+.move_from_left{
+    transform: translateX(-150px);
+    -webkit-transform: translateX(-150px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0;
+    transition-delay: .3s;
+}
+.move_from_left.is-visible{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}
+
+
+.move_from_right{
+    transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0;
+    transition-delay: .3s;
+}
+.move_from_right.is-visible{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}
+
+.move_from_down{
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0;
+    transition-delay: .3s;
+}
+.move_from_down.is-visible{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    opacity: 1;
+}
+
+.fade_in{
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition-delay: .3s;
+}
+.fade_in.is-visible{
+    opacity: 1;
+}
+
+.bannar_back .portion h1.move_from_left{ transition-delay: .3s;}
+.bannar_content_back .left .button.move_from_left{ transition-delay: .5s;}
+.bannar_content_back .right img.move_from_right{transition-delay: .5s;}
+
+.service_section .tabs_section ul li{
+    transform: translateX(-150px);
+    -webkit-transform: translateX(-150px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    opacity: 0;
+}
+.service_section .tabs_section ul li.is-visible{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}
+.service_section .tabs_section ul li:nth-child(2n+2){
+    transform: translateX(150px);
+    -webkit-transform: translateX(150px);
+}
+.service_section .tabs_section ul li.is-visible:nth-child(2n+2){
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+.service_section .image_back{
+    transition-delay: .5s;
+}
+.branding_section .image{
+    transition-delay: .5s;
+}
+
+.branding_section .content_back h2{
+    transition-delay: .3s;
+}
+.branding_section .content_back p{
+    transition-delay: .6s;
+}
+.branding_section .content_back .button{
+    transition-delay: .9s;
+}

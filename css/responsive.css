@@ -1,0 +1,114 @@
+@media only screen and (max-width:1400px){
+    header .menu_back .menu li a{ padding: 25px 28px;}
+    .section_back img.flow_pic{ width: 414px;}
+    .section_back .image_portion{ width: 681px;}
+    .section_back .image_portion:after{
+        left: 38px;     transform: rotate(7deg);
+    }
+    .section_back .image_portion:before{
+        left: 68px;     transform: rotate(7deg);
+    }
+    .section_back .image_portion img.main_pic{ width: 66%;}
+}
+@media only screen and (min-width:1024px) and (max-width:1200px){
+    .container{
+        max-width: 100%;
+    }
+    header .menu_back .menu li a{ padding: 25px 10px; font-size: 12px;}
+    .bannar_back{ height: 589px;}
+    .bannar_back .portion h1{ font-size: 47px; line-height: 55px;}
+    .section_back .portion .list_back li{ font-size: 12px;}
+    .section_back .portion .content{ padding-top: 0; padding-left: 0;}
+    .section_back .image_portion{ width: 481px;}
+    .section_back .image_portion:after{ 
+        left: 28px;
+        transform: rotate(5deg);
+    }
+    .section_back .image_portion:before{ 
+        left: 58px;
+        transform: rotate(5deg);
+    }
+    .section_back .image_portion img.main_pic{
+        width: 51%;
+    }
+    .section_back img.flow_pic{ bottom: -140px;}
+    footer .top p{ font-size: 30px;     margin: 6px 0 0 0;}
+    footer .top .button{margin: 0}
+}
+@media only screen and (max-width:1024px){
+    .container{
+        max-width: 100%;
+    }
+    .bannar_back .portion h1{ font-size: 47px; line-height: 55px;}
+}
+@media only screen and (max-width:1023px){
+    header .menu_back{ display: none; }
+    header .top .social{ display: none;}
+    header .top .right_details{ display: none;}
+    .humberger_menu{ display: flex;}
+    .bannar_back{ height: 304px;     padding: 24px 0 0;}
+    .bannar_back .portion img{ top: 36px;}
+    .bannar_back .portion h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .section_back.top{ padding-top: 122px;}
+    .section_back .portion img{ width: 100%;}
+    .section_back .portion .content{ padding-top: 0; padding-left: 0;}
+    .section_back .image_portion{ display: none;}
+    .section_back img.flow_pic{ bottom: -104px; right: 0;}
+    footer .top{ text-align: center;}
+    footer .top p{ font-size: 30px;     margin: 0 0 0 0; width: 100%; text-align: center;}
+    footer .top .button{margin: 0; float: none; display: inline-block;}
+    .copy_right_back{ text-align: center;}
+    .copy_right_back p{ float: none; display: inline-block; margin: 0 0 15px 0;}
+    .copy_right_back .card{ float: none; display: inline-block;}
+}
+@media only screen and (max-width:768px){
+    header .bottom{ display: none;}
+    footer .main_footer .details{grid-template-columns: repeat(3,1fr); }
+}
+@media only screen and (min-width:640px) and (max-width:767px){
+    header .top .right_details .details li{
+        margin: 0 33px 0 0;
+    }
+    .section_back img.flow_pic{
+        width: 333px;
+    }
+    .section_back.top{ padding-top: 20px;}
+    .section_back .portion .list_back li{ font-size: 12px;}
+    footer .main_footer .details{grid-template-columns: repeat(3,1fr); }
+    
+}
+@media only screen and (max-width:640px){
+    header .top .right_details .details li{
+        margin: 0 33px 0 0;
+    }
+    .section_back img.flow_pic{
+        width: 333px; display: none;
+    }
+    .section_back.top{ padding-top: 20px;}
+    .section_back .portion .list_back li{ font-size: 12px;}
+}
+@media only screen and (max-width:550px){
+    header .top .right_details .details li{
+        margin: 0 9px 0 0;
+    }
+    header .top .right_details{
+        padding: 38px 0 0 0;
+    }
+    header .top .right_details .details li img{ width: 17px;}
+    header .top .social{ padding: 38px 0 0 0;}
+    header .top .social .details li{ margin: 0 9px 0 0;}
+    header .top .social .details li img{ width: 17px;}
+    header .top .main{
+        grid-template-columns: 40%;
+    }
+    .bannar_back .portion h1{ font-size: 20px; line-height: 24px;}
+    .bannar_back .portion p{ width: 90%; font-size: 12px;}
+    .section_back .portion .list_back li{ width: 100%;}
+    .section_back .portion h2{ font-size: 30px;}
+    .section_back .portion p{ width: 100%;}
+    footer .main_footer .details{grid-template-columns: repeat(1,1fr); }
+    .section_back .l_pic{ display: none;}
+}
